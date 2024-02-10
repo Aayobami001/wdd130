@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Rock+Salt&display=swap')
-body {
+
+ :root {
     --primary-color: #00587a;
-    --secondary-color: 8B5d2e;
+    --secondary-color: #8B5d2e;
     --accent1-color: #417505;
     --accent2-color: #FFFFFF;
+    
     --heading-foot: 'roboto', serif;
     --paragraph-foot: 'rocksalt', serif;
 }
+
+body {
+    font-family: var(--paragraph-foot);
+    max-width: 960px;
+    padding: 20px;
+}
+
     nav {
         background-color: whitesmoke;
     }
@@ -15,13 +24,8 @@ body {
         link-color: white;
         hover-link: black;
         hover-background-color: black;
+        font-family: ;
     }
-
-body {
-   font-family: var(--paragraph-font);
-   max-width: 960px;
-   padding: 20px;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-foot);

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Rock+Salt&display=swap')
+
+:root {
+    --primary-color: #00587a;
+    --secondary-color: #8b5d2e;
+    --accent1-color: #417505;
+    --accent-color: #FFFFFF;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    max-width: 960px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    font-family: Arial, sans-serif;
+    
+}
+
+.hero {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    float: right;
+}
+
+.hero img {
+    display: block;
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
+.hero {
+    position: absolute;
+    top: 100px;
+    transform: translate(-50px, -50px);
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+article {
+    background-color: rgba(red, green, blue, alpha);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(red, green, blue, alpha);
+
+}
+
+h2 img {
+    flex-direction: column;
+}
+
+    nav{
+        Background-color: whitesmoke
+        link-color:
+        hover-color: 
+        hover-background:
+
+    }
+    
+    /*body {
+        max-width: 960px;*/
+    }
+
+    /*.hero {
+        display: block;
+        width: 100px;
+        left: 20px;*/
