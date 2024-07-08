@@ -3,29 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+main {
     max-width: 840px;
 }
 
-aside{
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    /* text-align: center; */
+    position: relative;
+    text-align: center;
 }
 
 aside img{
     width: 200px;
     height: auto;
+    margin-top: 2rem;
 }
-/* aside h2 {
+aside h2 {
     position: absolute;
     top: 10px;
-    left: 150px;
-} */
+    left: 130px;
+}
 
 main img{
     width: 150px;
@@ -55,7 +57,7 @@ footer{
 }
 
 aside {
-    width: 20em;
-    text-align: center;
+    /* width: 20em; */
+    /* text-align: center; */
 }
 
