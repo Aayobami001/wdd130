@@ -54,3 +54,59 @@ article img {
     float: right;
     margin-left: 100px;
 }
+
+footer nav a {
+    text-decoration: none;
+}
+
+/* Page Layout w04 */
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(251, 244, 244);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+header img {
+    /* display: flex; */
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: steelblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: red 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.adventure-section {
+    width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;;
+}
