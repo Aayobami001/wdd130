@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: sans-serif;
     font-size: 1.2em;
     color: black;
-    background-color: burlywood;
+    background-color: #0058;
   }
 
   header {
@@ -19,8 +19,18 @@ body {
   h1 {
     margin: 1rem;
     font-size: 1.5em;
-    color: navy;
+    background-color: rgba(251, 244, 244);
+    color: steelblue;
+    box-shadow: 0 0 10px steelblue;
+    padding: 5px;
+    border-radius: 2rem;
     text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  p {
+    font-weight: 700;
+    margin-left: 20px;
   }
 
  form {
@@ -30,6 +40,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
+    color: rgba(0, 0, 0, 1);
     display: grid;
     margin-top: 2rem;
  }
@@ -54,7 +65,7 @@ body {
  }
 
   input[type="submit"] {
-    background-color:navy;
+    background-color: steelblue;
     color: #fff;
     padding: 10px;
     border: none;
@@ -64,5 +75,6 @@ body {
   }
   
   input[type="submit"]:hover {
-    background-color: burlywood;
+    background-color: #0058;
+    color: burlywood;
   }
