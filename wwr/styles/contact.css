@@ -125,8 +125,8 @@ footer {
 }
 
  footer p {
-    background-color: burlywood;
-    color: steelblue;
+    /* background-color: #000; */
+    color: #000;
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0 0 7px steelblue;
@@ -146,7 +146,7 @@ form {
   label {
     display: block;
     margin-bottom: 8px;
-    color: steelblue;
+    color: #000;
     font-weight: 700;
     font-style: oblique;
   }
