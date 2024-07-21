@@ -115,7 +115,17 @@ section {
 }
 
 section h2{
-    margin: 20px;
+    /* margin: 20px; */
+}
+
+figcaption {
+    position: relative;
+    top: 20px;
+}
+
+section img {
+    padding: 20px;
+    border-radius: 1.5rem;
 }
 
 footer {
@@ -168,7 +178,7 @@ form {
     /* color: red; */
   }
 
-  input[type="submit"] {
+    /* input[type="submit"] {
     background-color: steelblue;
     color: #fff;
     padding: 10px;
@@ -183,4 +193,21 @@ form {
   input[type="submit"]:hover {
     background-color: burlywood;
     color: #45a049;
+  } */
+
+  button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+   background-color: steelblue;
+   color: #fff;
+   border-color: #fff;
+   border-radius: 10px;
+   font-style: oblique;
+   font-weight: 700;
+  }
+
+  button:hover {
+    background-color:red;
+    color: #000;
   }
