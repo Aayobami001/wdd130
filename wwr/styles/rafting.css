@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap'); */
 
 :root {
     --primary-color: #00587a;
@@ -108,5 +108,228 @@ nav a:hover {
 footer {
     display: flex;
     justify-content: flex-end;
-    align-items: center;;
+    align-items: center;
 }
+
+
+/* For Contact page W05 */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap'); */
+
+:root {
+    --primary-color: #00587a;
+    --secondary-color: #8b5d2e;
+    --accent1-color: #417505;
+    --accent2-color: #ffffff;
+
+    --heading-font: 'Rock salt', Helvetica, serif;
+    --paragraph-font: 'san-serif', Roboto, Cursive, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    max-width: 840px;
+    margin: auto;
+}
+
+.hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+h1{
+    left: 100px;
+    grid-row: 2/1;
+    grid-column: 1/2;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: 26%;
+    position: absolute;
+    padding: 6px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+article {
+    grid-column: 1/1;
+    position: absolute;
+    margin-top: 30%;
+    background-color: #0058;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px
+}
+
+article img {
+    float: right;
+    margin-left: 100px;
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+/* Page Layout w04 */
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(251, 244, 244);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+header img {
+    /* display: flex; */
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: steelblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* transition: red 0.3s ease-in-out; */
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+section {
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(235, 234, 240);
+    color: #00587a;
+    margin: 15%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+/* section h2{
+    margin: 20px;
+} */
+
+figcaption {
+    position: relative;
+    top: 20px;
+}
+
+section img {
+    padding: 20px;
+    border-radius: 1.5rem;
+}
+
+iframe {
+    border: 0;
+    width: 600px;
+    height: 450px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ footer p {
+    /* background-color: #000; */
+    color: #000;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px steelblue;
+    font-weight: 600;
+ }
+
+/* Contact Page Form W05 */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: #555;
+    padding: 40px;
+    /* width: 300px; */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000;
+    font-weight: 700;
+    font-style: oblique;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #21576e;
+    border-radius: 4px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+    /* color: red; */
+  }
+
+    /* input[type="submit"] {
+    background-color: steelblue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 700;
+    font-style: oblique;
+  }
+
+  input[type="submit"]:hover {
+    background-color: burlywood;
+    color: #45a049;
+  } */
+
+  button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+   background-color: steelblue;
+   color: #fff;
+   border-color: #fff;
+   border-radius: 10px;
+   font-style: oblique;
+   font-weight: 700;
+  }
+
+  button:hover {
+    background-color:red;
+    color: #000;
+  }
