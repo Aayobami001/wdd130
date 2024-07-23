@@ -116,7 +116,7 @@ footer {
 
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap'); */
 
-:root {
+/* :root {
     --primary-color: #00587a;
     --secondary-color: #8b5d2e;
     --accent1-color: #417505;
@@ -130,18 +130,18 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-header, main, footer {
+/* header, main, footer {
     max-width: 840px;
     margin: auto;
-}
+} */
 
-.hero {
+/* .hero {
     position: relative;
     display: grid;
     grid-template-columns: 2fr;
-}
+} */
 
 h1{
     left: 100px;
@@ -157,7 +157,7 @@ h1{
     font-weight: 700;
 }
 
-article {
+/* article {
     grid-column: 1/1;
     position: absolute;
     margin-top: 30%;
@@ -167,7 +167,7 @@ article {
     border-radius: 10px
 }
 
-article img {
+/* article img {
     float: right;
     margin-left: 100px;
 }
@@ -214,10 +214,10 @@ nav a:hover {
     color: #ffd700;
 }
 
-section {
+section{
     width: 840px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     text-align: center;
     align-items: center;
     padding: 40px;
@@ -333,3 +333,85 @@ form {
     background-color:red;
     color: #000;
   }
+
+  /* Trips page W06 */
+   h3 {
+    color: #21576e;
+    margin: 20px;
+  }
+
+  /* index Page W06*/
+
+  .header {
+    display: flex;
+    position: relative;
+  }
+
+  h1 {
+    color: steelblue;
+    width: 420px;
+    padding: 40px;
+    background-color: rgba(251, 244, 244);
+  }
+
+  .newsletter {
+    text-align: center;
+    margin-top: 20px;
+}
+.newsletter input[type="text"], .newsletter input[type="email"] {
+    padding:10px;
+    margin: 5px;
+    width: 200px;
+}
+.newsletter input[type="submit"] {
+    padding: 10px 30px;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.newsletter input:hover{
+    background-color: #333;
+    color: burlywood;
+}
+/* .cta {
+    /* text-align: center; */
+    /* margin: 20px; 
+} */
+.cta a {
+    /* padding: 10px 10px; */
+    /* background-color: steelblue; */
+    color: burlywood;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.grid img {
+    width: 100%;
+    height: auto;
+}
+.grid div {
+    padding: 20px;
+}
+footer {
+    max-width: 840px; 
+    /* background-color: #333; */
+    /* color: white; */
+    text-align: center;
+    padding: 10px;
+}
+
+.Ayo, p{
+    /* color: red; */
+    background-color: rgba(251, 244, 244);
+}
+.Ayo p {
+    background-color: steelblue;
+    color: #fff;
+}
